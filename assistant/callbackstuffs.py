@@ -158,14 +158,14 @@ _buttons = {
         ],
     },
     "vcb": {
-        "text": "From This Feature U can play songs in group voice chat\n\n[moreinfo](https://t.me/ygabutkan)",
+        "text": "From This Feature U can play songs in group voice chat\n\n[moreinfo](https://t.me/stufsupport)",
         "buttons": [
             [Button.inline("VC Sᴇssɪᴏɴ", data="abs_vcs")],
             [Button.inline("« Bᴀᴄᴋ", data="setter")],
         ],
     },
     "oofdm": {
-        "text": "About [Dual Mode](https://t.me/ygabutkan)",
+        "text": "About [Dual Mode](https://t.me/stufsupport)",
         "buttons": [
             [
                 Button.inline("Dᴜᴀʟ Mᴏᴅᴇ Oɴ", "dmof"),
