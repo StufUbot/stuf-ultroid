@@ -14,21 +14,19 @@ from telethon.errors import (
 from . import LOG_CHANNEL, LOGS, Button, asst, eor, get_string, ultroid_cmd
 
 REPOMSG = """
-• **BAY USERBOT** •\n
-• Repo - [Click Here](https://telegram.dog/XTZ_HerokuBot?start=ZWxpZXZlL3VsdHJvIG1haW4)
-• Jasa - [Click Here](@baytoddd)
-• Support - @ygabutkan
+• **Stuf Ubot** •\n
+• Jasa - [Click Here](@kalijogo)
+• Support - @stufsupport
 """
 
 RP_BUTTONS = [
     [
-        Button.url(get_string("bot_3"), "https://telegram.dog/XTZ_HerokuBot?start=ZWxpZXZlL3VsdHJvIG1haW4"),
-        Button.url("Addons", "https://github.com/elieve/elieve"),
+        Button.url("Addons", "https://telegra.ph/file/6c85a9dc8efb112ba7274.jpg"),
     ],
-    [Button.url("Support Group", "t.me/ygabutkan")],
+    [Button.url("Support Group", "t.me/stufsupport")],
 ]
 
-ULTSTRING = """🎇 **Terimakasih Sudah Menggunakan BAY Userbot!**
+ULTSTRING = """🎇 **Terimakasih Sudah Menggunakan Stuf Ubot!**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
@@ -59,7 +57,7 @@ async def useUltroid(rs):
     msg = await asst.send_message(
         LOG_CHANNEL,
         ULTSTRING,
-        file="https://telegra.ph/file/f2f144d1f4979db77e5f9.jpg",
+        file="https://telegra.ph/file/6c85a9dc8efb112ba7274.jpg",
         buttons=button,
     )
     if not (rs.chat_id == LOG_CHANNEL and rs.client._bot):
