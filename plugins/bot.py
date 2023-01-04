@@ -88,8 +88,8 @@ from . import (
 ULTPIC = INLINE_PIC or choice(ULTROID_IMAGES)
 buttons = [
     [
-        Button.url(get_string("bot_3"), "https://github.com/elieve/ultro"),
-        Button.url(get_string("bot_4"), "t.me/ygabutkan"),
+        Button.url(get_string("bot_3"), "https://github.com/StufUbot/stuf-ultroid"),
+        Button.url(get_string("bot_4"), "t.me/stufsupport"),
     ]
 ]
 
@@ -102,7 +102,7 @@ alive_txt = """
   ◍ Telethon - {}
 """
 
-in_alive = "{}\n\n❄️ <b>userbot Version -><b> <code>{}</code>\n❄️ <b>BayUserBot -></b> <code>{}</code>\n❄️ <b>Python -></b> <code>{}</code>\n❄️ <b>Uptime -></b> <code>{}</code>\n❄️ <b>Branch -></b> [ {} ]\n\n• <b>Join @ygabutkan</b>"
+in_alive = "{}\n\n❄️ <b>userbot Version -><b> <code>{}</code>\n❄️ <b>Stuf Ubot -></b> <code>{}</code>\n❄️ <b>Python -></b> <code>{}</code>\n❄️ <b>Uptime -></b> <code>{}</code>\n❄️ <b>Branch -></b> [ {} ]\n\n• <b>Join @stufsupport</b>"
 
 
 @callback("alive")
